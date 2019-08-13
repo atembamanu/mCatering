@@ -1,0 +1,684 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mCatering</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/custom-styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="modal fade" id="hireModal" tabindex="-1" role="dialog" aria-labelledby="hireModelLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="hireModelLabel">HIRE mCATERING</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="employer-name" class="col-form-label">Name:</label>
+                            <input type="text" class="form-control" id="employer-name" placeholder="Enter your name"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text"
+                                placeholder="Enter message, Remember to include location" required></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-hire">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <img src="images/catering_banner_new.png" class="img-fluid" alt="mcatering banner">
+        <nav class="navbar navbar-expand-lg navbar-light position-sticky">
+            <a class="navbar-brand" href="index.html">mCatering</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav ">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#dishes_pricing">Dishes & Pricing</a>
+                    <a class="nav-item nav-link" href="#new_dishes_pricing">New Dishes<span
+                            class="badge badge-warning">8</span></a>
+                    <a class="nav-item nav-link" data-toggle="modal" data-target="#hireModal">Hire</a>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron text-center">
+            <p><strong>mcatering </strong>allows you to feel the best and important. Preparing over 120 diversities of
+                delicacies by professionals chefs around the globe</p>
+
+            <p>Every individual or company deserves the best. The best dishes to make them feel they are the best.</p>
+            <button type="button" class="btn btn-hire btn-lg" data-toggle="modal" data-target="#hireModal">HIRE
+                mCATERING</button>
+
+        </div>
+
+        <section id="dishes_pricing">
+            <div class="meals">
+                <h2 id="mealIntro"><span>D</span>ishes & <span>P</span>ricing</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/pancake-1984716_960_720.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Wheat</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/grilling-1081675_960_720.jpg"
+                                alt="stuffed-baked-spuds">
+                            <div class="card-body">
+                                <h5 class="card-title">stuffed baked spuds <span
+                                        class="badge badge-warning float-right">KSH 2800</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                                    <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Wheat</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/cocktails-948353__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/food-3676796__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/food-platter-2175326__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/french-fries-4267759__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/kiwi-1239244__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="images/nuts-570108__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="new_dishes_pricing">
+            <div class="meals">
+                <h2 id="mealIntro"><span>N</span>ew Dishes & <span>O</span>ffers</h2>
+                <hr>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/serrano-ham-1249009__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/appetite-1238513__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/appetite-1238569__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/appetite-1238529__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/sweets-1279875_960_720.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/cheese-852978__340.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/mixed-fruits.jpg" alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <span class="notify-badge">NEW</span>
+                            <img class="card-img-top" src="images/cupcakes-690040_960_720.jpg"
+                                alt="baked-chilli-jacket-potatoes">
+                            <div class="card-body">
+                                <h5 class="card-title">baked-chilli-jacket-potatoes <span
+                                        class="badge badge-warning float-right">KSH 2600</span></h5>
+                                <p class="card-text">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <h5 id="ingredients">Ingredients</h5>
+                                            <ul>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                                <li>This is an ingredient</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-4">
+                                            <h5 class="badge-pill badge-danger">Allergens</h5>
+                                            <ul>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                                <li>Milk</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </p>
+                                <a href="#" class="btn btn-hire">Reserve For Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testinonials">
+            <div class="container-fluid testinonials">
+                <h5 id="testimonials-header"><span class=" badge-pill badge-warning">Testimonials</span></h5>
+                <div class="row">
+                    <div class="col-4">
+                        <blockquote class="blockquote text-left">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                erat a
+                                ante.</p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite
+                                    title="Source Title">Source
+                                    Title</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-4">
+                        <blockquote class="blockquote text-left">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                erat a
+                                ante.</p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite
+                                    title="Source Title">Source
+                                    Title</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-4">
+                        <blockquote class="blockquote text-left">
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
+                                erat a
+                                ante.</p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite
+                                    title="Source Title">Source
+                                    Title</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+
+
+                <footer>
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <hr class="light-100">
+                            <h5>© 2019 mcatering incorporated</h5>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>

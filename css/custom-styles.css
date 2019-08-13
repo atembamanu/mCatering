@@ -1,0 +1,49 @@
+nav{
+    position: static !important;
+    top: 0;
+    z-index: 3;
+}
+.navbar{
+    background-color: #973e6a !important;
+    /* position: fixed; */
+    
+}
+.btn-hire{
+    background-color: #973e6a;
+    color: #fff;
+    
+}
+#mealIntro{
+    margin-left: 70px;
+}
+#mealIntro span{
+    color: #973e6a
+}
+#ingredients{
+    color: #973e6a;
+}
+ul{
+    list-style: none;;
+}
+.notify-badge{
+    position: absolute;
+    right:-20px;
+    top:10px;
+    background:red;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color:white;
+    padding:5px 10px;
+    font-size:20px;
+}
+.testinonials, footer{
+margin-top: 70px;
+            background-color: #973e6a;
+}
+#testimonials-header{
+    padding-top: 9px;
+}
+
+#new_dishes_pricing{
+    padding-top: 90px
+}
